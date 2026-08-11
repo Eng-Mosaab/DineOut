@@ -3,6 +3,7 @@
     --paragraph-color: #7A878B;
     --main-gradient: linear-gradient(to right, #2c5364, #203a43, #0f2027);
     --secondary-gradient: radial-gradient(#2c5364, #203a43, #0f2027);
+
     --transition-duration: 1s;
 }
 
@@ -28,11 +29,16 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Dancing Script", cursive;
 }
 
-.fancy-heading {
+.heading-2 {
     font-family: "Poppins", sans-serif;
 }
 
@@ -49,7 +55,7 @@ section {
     padding: 25px 0;
 }
 
-.cta-btn {
+.button {
     position: relative;
     display: inline-block;
     padding: 8px 30px;
@@ -60,15 +66,15 @@ section {
     overflow: hidden;
 }
 
-.cta-btn span {
+.button span {
     transition-duration: .5s;
 }
 
-.cta-btn:hover span {
+.button:hover span {
     color: #fff;
 }
 
-.cta-btn::before {
+.button::before {
     content: "";
     position: absolute;
     top: 0;
@@ -79,16 +85,22 @@ section {
     transition-duration: 1s;
 }
 
-.cta-btn:hover::before {
+.button:hover::before {
     left: 0;
 }
 
-.cta-btn span {
+.button span {
     position: relative;
     z-index: 2;
 }
 
-.divider {
+@media (max-width: 1300px) {
+    .button {
+        padding: 5px 20px;
+    }
+}
+
+.hr {
     height: 4px;
     background-color: var(--primary-color);
     border-bottom: none;
@@ -98,16 +110,17 @@ section {
     color: var(--primary-color);
 }
 
-.section-title h5 {
+.title h5 {
     color: var(--primary-color);
 }
 
-.section-title .deco-img {
+.title .image {
     position: relative;
     width: fit-content;
 }
 
-.section-title .deco-img::before, .section-title .deco-img::after {
+.title .image::before,
+.title .image::after {
     content: "";
     display: block;
     position: absolute;
@@ -118,10 +131,10 @@ section {
     background-color: #fff;
 }
 
-.section-title .deco-img::before {
+.title .image::before {
     left: 110%;
 }
 
-.section-title .deco-img::after {
+.title .image::after {
     right: 110%;
 }

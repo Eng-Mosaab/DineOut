@@ -1,153 +1,142 @@
-
 @media (max-width: 1300px) {
 
-    
-    
+  
     .offcanvas.offcanvas-start {
-        width: 260px;
+        width: 280px;
     }
 
-    
     header .carousel-item:nth-child(1).active .carousel-caption p {
         width: 100%;
-        font-size: 11px;
+        font-size: 12px;
     }
 
-    
-    header #heroSlider .nav-arrows {
+    header #carouselExampleCaptions .buttons {
         bottom: 15px;
         right: 30px;
-        width: 72px;
+        width: 80px;
     }
 
-    header #heroSlider .nav-arrows .carousel-control-next,
-    header #heroSlider .nav-arrows .carousel-control-prev {
+    header #carouselExampleCaptions .buttons .carousel-control-next,
+    header #carouselExampleCaptions .buttons .carousel-control-prev {
         width: 30px;
-        height: 28px;
+        height: 30px;
     }
 
-    
-    header .carousel-item:nth-child(2) .col-left .deco-img {
+    header .carousel-item:nth-child(2) .part-1 .image {
         width: 150px;
     }
 
-    header .carousel-item:nth-child(2) .col-left h2 {
+    header .carousel-item:nth-child(2) .part-1 h2 {
         font-size: 60px;
     }
 
-    header .carousel-item:nth-child(2) .col-left p {
-        font-size: 11px;
+    header .carousel-item:nth-child(2) .part-1 p {
+        font-size: 12px;
     }
 
-    header .carousel-item:nth-child(2) .col-left .info-block .hotline {
+    header .carousel-item:nth-child(2) .part-1 .text .phone-number {
         font-size: 20px;
     }
 
-    header .carousel-item:nth-child(2) .col-right img {
+    header .carousel-item:nth-child(2) .part-2 img {
         display: none;
     }
 
-    
-    header .carousel-item:nth-child(3) .col-left img {
+    header .carousel-item:nth-child(3) .part-1 img {
         display: none;
     }
 
-    header .carousel-item:nth-child(3) .col-right p {
-        font-size: 11px;
+    header .carousel-item:nth-child(3) .part-2 p {
+        font-size: 12px;
     }
 
-    
-    #about-us .col-left p,
-    #about-us .col-left .tile .detail-row h4 {
-        font-size: 13px;
+    #About .part-1 p,
+    #About .part-1 .box .part h4 {
+        font-size: 14px;
     }
 
-    #about-us .col-right .panel {
+    #About .part-2 .content {
         height: 200px;
     }
 
-    
-    #why-choose-us {
+
+    #Services {
         background-image: url("../images/video_image-min.jpg");
         background-position: center;
         background-size: cover;
     }
 
-    #why-choose-us video {
+    #Services video {
         display: none;
     }
 
-    #why-choose-us .info-block p {
-        font-size: 11px;
+    #Services .text p {
+        font-size: 12px;
     }
 
-    #why-choose-us .panel .tile {
-        max-width: 260px;
+    #Services .content .box {
+        max-width: 300px;
     }
 
-    #why-choose-us .panel .tile:not(:last-child) {
+    #Services .content .box:not(:last-child) {
         margin-bottom: 30px;
     }
 
-    
-    #our-menu .menu-layout {
+    #Menu .main-menu {
         flex-direction: column;
     }
 
-    #our-menu .menu-layout .nav {
+    #Menu .main-menu .nav {
         width: 100%;
     }
 
-    #our-menu .menu-layout .nav .tile-row {
+    #Menu .main-menu .nav .boxes {
         flex-direction: row;
         flex-wrap: nowrap;
     }
 
-    #our-menu .nav button {
+    #Menu .nav button {
         border-top: 1px solid #fff;
     }
 
-    #our-menu .nav button::before {
+    #Menu .nav button::before {
         right: 50%;
         top: initial;
         bottom: 0;
         transform: translateX(50%) translateY(120%) rotate(45deg);
     }
 
-    #our-menu .nav button.active::before {
+    #Menu .nav button.active::before {
         transform: translateX(50%) translateY(50%) rotate(45deg);
     }
 
-    #our-menu .nav button:first-child {
+    #Menu .nav button:first-child {
         border-top: 1px solid #fff;
         border-radius: 5px 0 0 5px;
     }
 
-    #our-menu .nav button:last-child {
+    #Menu .nav button:last-child {
         border-radius: 0 5px 5px 0px;
     }
 
-    
-    #our-team .container .panel .chef-tile {
-        width: 260px;
+    #Team .container .content .chef {
+        width: 280px;
     }
 
-    #our-team .container .panel:not(:last-child) {
+    #Team .container .content:not(:last-child) {
         margin-bottom: 70px;
     }
 
-    
-    #reservation .col-left form {
+    #Contact .part-1 form {
         width: 90%;
     }
 
-    #reservation .col-right {
+    #Contact .part-2 {
         display: none;
     }
 
-    
     footer p {
-        font-size: 11px;
+        font-size: 12px;
     }
 
 }
@@ -155,123 +144,113 @@
 @media (min-width: 371px) and (max-width: 1300px) {
 
     
-    
     header .carousel-item:nth-child(1).active .carousel-caption p {
         width: 90%;
     }
 
-    header .carousel-item:nth-child(2) .col-left p {
-        font-size: 13px;
+    header .carousel-item:nth-child(2) .part-1 p {
+        font-size: 14px;
     }
 }
 
 @media (min-width: 577px) and (max-width: 1300px) {
 
-    
-    
+
     header .carousel-item:nth-child(1).active .carousel-caption p {
         width: 60%;
-        font-size: 15px;
+        font-size: 16px;
     }
 
-    
-
-    header .carousel-item:nth-child(3) .col-right p {
-        font-size: 15px;
-    }
-
-    
-    header #heroSlider .nav-arrows {
+    header #carouselExampleCaptions .buttons {
         bottom: 15px;
         right: 30px;
-        width: 90px;
+        width: 100px;
     }
 
-    header #heroSlider .nav-arrows .carousel-control-next,
-    header #heroSlider .nav-arrows .carousel-control-prev {
+    header #carouselExampleCaptions .buttons .carousel-control-next,
+    header #carouselExampleCaptions .buttons .carousel-control-prev {
         width: 40px;
-        height: 36px;
+        height: 40px;
     }
 
-    
-    #about-us .col-left p,
-    #about-us .col-left .tile .detail-row h4 {
-        font-size: 15px;
+    #About .part-1 p,
+    #About .part-1 .box .part h4 {
+        font-size: 16px;
     }
 
-    
-    #why-choose-us .info-block p {
-        font-size: 13px;
+    #Services .text p {
+        font-size: 14px;
     }
 
-    
     footer p {
-        font-size: 13px;
+        font-size: 14px;
     }
 
 }
 
 @media (min-width: 769px) and (max-width: 1300px) {
 
-    
     .offcanvas.offcanvas-start {
-        width: 260px;
+        width: 300px;
     }
 
-    header .carousel-item:nth-child(2) .col-right img {
+    header .carousel-item:nth-child(2) .part-2 img {
         display: block;
     }
 
-    header .carousel-item:nth-child(3) .col-left img {
+    header .carousel-item:nth-child(3) .part-1 img {
         display: block;
     }
 
-    
-    #about-us .col-right .panel {
+    header .carousel-item:nth-child(3) .part-2 h2 {
+        font-size: 20px;
+    }
+
+    header .carousel-item:nth-child(3) .part-2 p {
+        font-size: 12px;
+    }
+
+    #About .part-2 .content {
         height: 300px;
     }
 
-    
-    #why-choose-us {
+    #Services {
         background-image: none;
     }
 
-    #why-choose-us video {
+    #Services video {
         display: block;
     }
 
-    #why-choose-us .info-block p {
-        font-size: 15px;
+    #Services .text p {
+        font-size: 16px;
     }
 
-    #why-choose-us .panel .tile:not(:last-child) {
+    #Services .content .box:not(:last-child) {
         margin-bottom: 0px;
     }
 
-    
-    #our-menu .menu-layout .nav .tile-row {
+    #Menu .main-menu .nav .boxes {
         justify-content: center;
     }
 
-    
-    #our-team .container .panel .chef-tile {
+    #Team .container .content .chef {
         width: initial;
     }
 
-    #our-team .container .panel:not(:last-child) {
+    #Team .container .content:not(:last-child) {
         margin-bottom: 0px;
     }
 
-    
-    #reservation .col-left form {
+    #Contact .part-1 form {
         width: 90%;
     }
 
-    #reservation .col-right {
+    #Contact .part-2 {
         display: flex;
     }
 
-    #reservation .col-right img {
+    #Contact .part-2 img {
         width: 100%;
     }
 
@@ -279,58 +258,57 @@
 
 @media (min-width: 992px) and (max-width: 1300px) {
 
-    
     .offcanvas.offcanvas-start {
-        width: 360px;
+        width: 400px;
     }
 
-    
-    #our-menu .menu-layout {
+    header .carousel-item:nth-child(3) .part-2 h2 {
+        font-size: 30px;
+    }
+
+    header .carousel-item:nth-child(3) .part-2 p {
+        font-size: 14px;
+    }
+
+    #Menu .main-menu {
         flex-direction: row;
     }
 
-    #our-menu .menu-layout .nav .tile-row {
+    #Menu .main-menu .nav .boxes {
         flex-direction: column;
     }
 
-    #our-menu .menu-layout .nav {
+    #Menu .main-menu .nav {
         width: initial;
     }
 
-    #our-menu .nav button::before {
+    #Menu .nav button::before {
         right: 0%;
         top: 50%;
         bottom: initial;
         transform: translateX(120%) translateY(-50%) rotate(45deg);
     }
 
-    #our-menu .nav button.active::before {
+    #Menu .nav button.active::before {
         transform: translateX(50%) translateY(-50%) rotate(45deg);
     }
 
-    #our-menu .nav button:first-child {
+    #Menu .nav button:first-child {
         border-top: 1px solid #fff;
         border-radius: 5px 5px 0 0;
     }
 
-    #our-menu .nav button:last-child {
+    #Menu .nav button:last-child {
         border-radius: 0 0 5px 5px;
     }
 
-    #our-menu .tab-content .tab-pane .tile .dish .col-right .rating-icons i {
-        font-size: 11px;
+    #Menu .tab-content .tab-pane .box .item .part-2 .icons i {
+        font-size: 12px;
     }
 
-    
     footer p {
         font-size: initial;
     }
 }
 
 @media (min-width: 1181px) and (max-width: 1300px) {}
-
-@media (max-width: 1300px) {
-    .cta-btn {
-        padding: 4px 16px;
-    }
-}
